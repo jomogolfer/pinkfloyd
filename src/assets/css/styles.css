@@ -1,0 +1,55 @@
+.muted {
+  color: #999; 
+}
+
+.marketing-hero {
+    background: rgba(0, 0, 0, 0) url("../img/header2.jpg") repeat scroll center center / cover ;
+    padding-bottom: 250px;
+    padding-top: 180px;
+}
+
+.bio {
+	text-align: center;
+}
+
+h2.center {
+	text-align: center;
+}
+
+/* The following styles are for the album cover transparent overlays */
+
+.album-overlay > a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.album-overlay > a .album-info {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+    line-height: 1.33;
+    padding: 33% 12% 0;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    transition: all 0.25s ease-out 0s;
+}
+
+.album-overlay > a:hover .album-info {
+    top: 0;
+}
+
+.album-overlay > a:hover .album-info p {
+    color: red;
+    font-size: 130%;
+    margin-bottom: -5px;
+}
+
+.album-overlay > a:hover .album-info h4, .album-overlay > a .album-info h4 {
+    color: #fff;   
+    line-height: 25px;
+    text-transform: uppercase;
+}
